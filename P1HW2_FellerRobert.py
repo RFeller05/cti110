@@ -3,6 +3,11 @@
 # P1HW2
 # Take user input for travel details
 
+# Create Variables for each user input, and one for the final balance
+# Ask the user for all the required input while converting them
+# Calculate the leftover balance by adding all of the user input together, and subtracting it from the budget UI
+# Display everything
+
 budget = ''
 destination = ''
 gasMoney = ''
