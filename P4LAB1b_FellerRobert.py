@@ -1,0 +1,36 @@
+import turtle          
+win = turtle.Screen()  
+t = turtle.Turtle()
+
+t.pensize(3)
+t.pencolor("purple")
+t.shape("turtle")
+
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.left(135)
+t.forward(135)
+
+t.penup()
+t.left(45)
+t.forward(50)
+t.pendown()
+
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(100)
+t.right(180)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+win.mainloop()
